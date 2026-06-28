@@ -11,13 +11,21 @@ html,body{
 main{
     width: 100%;
     height: 100%;
-    display: flex;
     justify-content: center;
 }
 .header {
     width: 85%;
     height: 120px;
-    border: 1px solid black;
+    position: fixed;
+    background-color: white;
+    margin-left: 7.5%;
+}
+.header_fake{
+    width: 85%;
+    height: 120px;
+    background-color: white;
+    border: 1px solid red;
+    margin-left: 7.5%
 }
 .top_header{
     width: 100%;
@@ -33,7 +41,7 @@ main{
 .flipkart_logo{
     width: 150px;
     background-color: #ffe514;
-    padding: 10px;
+    padding: px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -42,7 +50,7 @@ main{
 .travel_logo{
     width: 150px;
     background-color: rgb(230, 230, 230);
-    padding: 10px;
+    padding: px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -51,17 +59,17 @@ main{
 }
 .grocery_logo{
     width: 150px;
+    height: 45px;
     background-color: rgb(230, 230, 230);
-    padding: 1px;
+    padding: px;
     align-items: center;
     justify-content: center;
     display: flex;
     border-radius: 10px;
     margin-left: 20px;
 }
-.grocery_logo img{
-    height: 50%;
-}
+
+
 .location{
     font-size: 17px;
     align-items: center;
@@ -84,8 +92,63 @@ main{
 .delivery_arrow{
     margin-right: 50px;
 }
-.header_pannel{
+.bottom_header{
     width: 100%;
     height: 60px;
-    border: 1px solid lightgrey;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.searchbar{
+    margin-left: 15px;
+    width: 800px;
+    height: 45px;
+    border: 2px solid #3070fa;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+.searchbox{
+    height: 35px;
+    width: 750px;
+    font-size: 18px;
+    border: none;
+}
+.ri-search-line{
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 28px;
+    color: grey;
+}
+.LMC{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+.LMC a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 30px;
+    font-size: 20px;
+}
+.more{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 20px;
+    font-size: 20px;
+}
+.cart{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 15px;
+    font-size: 20px;
 }
