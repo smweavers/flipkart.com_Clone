@@ -34,7 +34,7 @@ main{
     margin-left: 7.5%;
     position: fixed;
     z-index: 2;
-    opacity: 20%;
+    opacity: 10%;
 }
 .header_fake2:hover{
     opacity: 100%;
@@ -204,7 +204,7 @@ main{
 }
 .first_display_homepage{
     min-width: 100%;
-    min-height: 265px;
+    min-height: 240px;
     margin-top: 25px;
     align-items: center;
     justify-content: space-around;
@@ -221,7 +221,7 @@ main{
 }
 .box_first_display_homepage{
     min-width: 400px;
-    min-height: 225px;
+    min-height: 200px;
     background-color: white;
     border-radius: 15px;
     margin-left: 25px;
@@ -262,4 +262,178 @@ main{
 .hp_d1_b9{
     background-image: url(fh_slider_img9.webp);
     background-size: cover;
+}
+.second_display_homepage{
+    width: 100%;
+    height: 175px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.box_second_display_homepage{
+    min-width: 300px;
+    min-height: 150px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+}
+.second_display_homepage::-webkit-scrollbar{
+    height: 5px;
+}
+.second_display_homepage::-webkit-scrollbar-thumb{
+    background: grey;
+}
+.hp_d2_b1{
+    background-image: url(hpd2b1.webp);
+    background-size: cover;
+}
+.hp_d2_b2{
+    background-image: url(hpd2b2.webp);
+    background-size: cover;
+}
+.hp_d2_b3{
+    background-image: url(hpd2b3.webp);
+    background-size: cover;
+}
+.hp_d2_b4{
+    background-image: url(hpd2b4.webp);
+    background-size: cover;
+}
+.hp_d2_b5{
+    background-image: url(hpd2b5.webp);
+    background-size: cover;
+}
+.hp_d2_b6{
+    background-image: url(hpd2b6.webp);
+    background-size: cover;
+}
+.hp_d2_b7{
+    background-image: url(hpd2b7.webp);
+    background-size: cover;
+}
+.hp_d2_b8{
+    background-image: url(hpd2b8.webp);
+    background-size: cover;
+}
+.hp_d2_b9{
+    background-image: url(hpd2b9.webp);
+    background-size: cover;
+}
+.hp_d2_b10{
+    background-image: url(hpd2b10.webp);
+    background-size: cover;
+}
+.third_display_homepage{
+    width: 100%;
+    height: 375px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box_third_display_homepage{
+    width:  95%;
+    height: 350px;
+    background: linear-gradient(#3070fa);
+    border-radius: 10px;
+    background-image: url(d3_bgimg.webp);
+    background-size: cover;
+}
+.box_third_display_homepage p{
+    margin-top: 15px;
+    margin-left: 27px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.subbox1_box_third_display_homepage{
+    width: 97.5%;
+    height: 280px;
+    margin-top: 10px;
+    margin-left: 1.25%;
+    background-color: white;
+    border-radius: 10px;
+}
+.subbox1_img{
+    justify-content: space-around;
+    display: flex;
+    height: 74%;
+}
+.ibox{
+    width: 24.5%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;margin-top: 5px;
+    background-color: rgb(247, 247, 247);
+}
+.subbox2_img{
+    justify-content: space-around;
+    display: flex;
+    height: 20%;
+    margin-top: 7.5px;
+}
+.ibox2{
+    width: 24.5%;
+    height: 100%;
+    margin-top: 5px;
+}
+.ibox2 p{
+    font-size: 14px;
+    font-weight: lighter;
+}
+.footer1{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid lightgrey;
+    align-items: center;
+    text-align: left;
+    display: flex;
+}
+.footer1 p{
+    margin-left: 25px;
+}
+.footer2{
+    width: 100vw;
+    height: 275px;
+    background-color: #111112;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.f_div1{
+    height: 70%;
+}
+.f_div2{
+    height: 70%;
+}
+.f_div3{
+    height: 70%;
+}
+.f_div4{
+    height: 70%;
+}
+.f_div22 p{
+    color: white;
+    font-size: 14px;
+}
+.f_div22 p:hover{
+    text-decoration: underline;
+}
+.footer3{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #878787;
+    background-color: #111112;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.footer_items{
+    display: flex;
+}
+.footer_items p{
+    color: white;
+    margin-left: 10px;
 }
