@@ -437,3 +437,67 @@ main{
     color: white;
     margin-left: 10px;
 }
+.fourth_display_homepage{
+    width: 100%;
+    height: 270px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.box_fourth_display_homepage{
+    width: 95%;
+    height: 87.5%;
+    border-radius: 10px;
+    background-color: white;
+}
+.fourth_display_products{
+    width: 97.5%;
+    height: 200px;
+    margin-left: 15px;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+}
+.f4db1_subbox{
+    height: 90%;
+    width: 15%;
+    border-radius: 10px;
+    background-image: url(f4db1.webp);
+    background-size: cover;
+}
+.f4db2_subbox{
+    height: 90%;
+    width: 15%;
+    border-radius: 10px;
+    background-image: url(f4db2.webp);
+    background-size: cover;
+}
+.f4db3_subbox{
+    height: 90%;
+    width: 15%;
+    border-radius: 10px;
+    background-image: url(f4db3.webp);
+    background-size: cover;
+}
+.f4db4_subbox{
+    height: 90%;
+    width: 15%;
+    border-radius: 10px;
+    background-image: url(f4db4.webp);
+    background-size: cover;
+}
+.f4db5_subbox{
+    height: 90%;
+    width: 15%;
+    border-radius: 10px;
+    background-image: url(f4db5.webp);
+    background-size: cover;
+}
+.f4db6_subbox{
+    height: 90%;
+    width: 15%;
+    border-radius: 10px;
+    background-image: url(f4db6.webp);
+    background-size: cover;
+}
